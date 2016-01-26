@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   LastUpgradeVersion = "0700"
+   version = "2.0">
+   <BuildAction
+      parallelizeBuildables = "YES"
+      buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "767A57891B2D26D30036D688"
+               BuildableName = "Benjamin Scheduler WatchApp.app"
+               BlueprintName = "Benjamin Scheduler WatchApp"
+               ReferencedContainer = "container:Benjamin Scheduler.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "76ADD5491B253EE4001915C4"
+               BuildableName = "Benjamin Scheduler.app"
+               BlueprintName = "Benjamin Scheduler"
+               ReferencedContainer = "container:Benjamin Scheduler.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "767A57951B2D26E50036D688"
+               BuildableName = "Benjamin Scheduler WatchApp Extension.appex"
+               BlueprintName = "Benjamin Scheduler WatchApp Extension"
+               ReferencedContainer = "container:Benjamin Scheduler.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      buildConfiguration = "Debug">
+      <Testables>
+      </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "767A57891B2D26D30036D688"
+            BuildableName = "Benjamin Scheduler WatchApp.app"
+            BlueprintName = "Benjamin Scheduler WatchApp"
+            ReferencedContainer = "container:Benjamin Scheduler.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </TestAction>
+   <LaunchAction
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      launchStyle = "0"
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Debug"
+      ignoresPersistentStateOnLaunch = "NO"
+      debugDocumentVersioning = "YES"
+      debugServiceExtension = "internal"
+      allowLocationSimulation = "YES"
+      launchAutomaticallySubstyle = "8"
+      notificationPayloadFile = "Benjamin Scheduler WatchApp Extension/PushNotificationPayload.apns">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.carousel"
+         RemotePath = "/Benjamin Scheduler">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "767A57891B2D26D30036D688"
+            BuildableName = "Benjamin Scheduler WatchApp.app"
+            BlueprintName = "Benjamin Scheduler WatchApp"
+            ReferencedContainer = "container:Benjamin Scheduler.xcodeproj">
+         </BuildableReference>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "767A57891B2D26D30036D688"
+            BuildableName = "Benjamin Scheduler WatchApp.app"
+            BlueprintName = "Benjamin Scheduler WatchApp"
+            ReferencedContainer = "container:Benjamin Scheduler.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </LaunchAction>
+   <ProfileAction
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      savedToolIdentifier = ""
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Release"
+      debugDocumentVersioning = "YES"
+      launchAutomaticallySubstyle = "8"
+      notificationPayloadFile = "Benjamin Scheduler WatchApp Extension/PushNotificationPayload.apns">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.carousel"
+         RemotePath = "/Benjamin Scheduler">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "767A57891B2D26D30036D688"
+            BuildableName = "Benjamin Scheduler WatchApp.app"
+            BlueprintName = "Benjamin Scheduler WatchApp"
+            ReferencedContainer = "container:Benjamin Scheduler.xcodeproj">
+         </BuildableReference>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "767A57891B2D26D30036D688"
+            BuildableName = "Benjamin Scheduler WatchApp.app"
+            BlueprintName = "Benjamin Scheduler WatchApp"
+            ReferencedContainer = "container:Benjamin Scheduler.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+   </ProfileAction>
+   <AnalyzeAction
+      buildConfiguration = "Debug">
+   </AnalyzeAction>
+   <ArchiveAction
+      buildConfiguration = "Release"
+      revealArchiveInOrganizer = "YES">
+   </ArchiveAction>
+</Scheme>

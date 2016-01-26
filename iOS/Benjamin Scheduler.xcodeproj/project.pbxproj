@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		760301E11B929F85001B0357 /* AddClasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760301E01B929F85001B0357 /* AddClasses.swift */; };
+		760301E31B929F8F001B0357 /* AddTeachers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760301E21B929F8F001B0357 /* AddTeachers.swift */; };
+		760301E51B929FA2001B0357 /* CompileRegister.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760301E41B929FA2001B0357 /* CompileRegister.swift */; };
+		760301E71B92A351001B0357 /* Classes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760301E61B92A351001B0357 /* Classes.swift */; };
+		760301E91B92A35A001B0357 /* Teachers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760301E81B92A35A001B0357 /* Teachers.swift */; };
+		760FA1C51BA98E05000A7BFB /* iPhone4s.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 760FA1C41BA98E05000A7BFB /* iPhone4s.storyboard */; };
+		7613C05B1BB991340099D29F /* ChangeRegistration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7613C05A1BB991340099D29F /* ChangeRegistration.swift */; };
+		7613C05D1BB998390099D29F /* ChangeTeachers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7613C05C1BB998390099D29F /* ChangeTeachers.swift */; };
+		7613C05F1BB9A87F0099D29F /* ChangeClasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7613C05E1BB9A87F0099D29F /* ChangeClasses.swift */; };
+		7632A4981BA1435400E431AB /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7632A4971BA1435400E431AB /* Users.swift */; };
+		763A23F21B92B280005AB814 /* App Icon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 763A23F11B92B280005AB814 /* App Icon.jpg */; };
+		7641329C1B614199007CD668 /* Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7641329B1B614199007CD668 /* Intro.swift */; };
+		76509C301B9357410000D9FE /* FriendItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76509C2F1B9357410000D9FE /* FriendItem.swift */; };
+		769F8BE01BA9052800181E85 /* iPhone6Plus.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 769F8BDF1BA9052800181E85 /* iPhone6Plus.storyboard */; };
+		769F8BE21BA90E2F00181E85 /* iPhone5s.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 769F8BE11BA90E2F00181E85 /* iPhone5s.storyboard */; };
+		76ADD5501B253EE5001915C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76ADD54F1B253EE5001915C4 /* AppDelegate.swift */; };
+		76ADD5571B253EE5001915C4 /* iPhone6.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76ADD5551B253EE5001915C4 /* iPhone6.storyboard */; };
+		76ADD5591B253EE5001915C4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76ADD5581B253EE5001915C4 /* Images.xcassets */; };
+		76ADD55C1B253EE5001915C4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76ADD55A1B253EE5001915C4 /* LaunchScreen.xib */; };
+		76ADD5A21B25494F001915C4 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76ADD5A11B25494F001915C4 /* LoginView.swift */; };
+		76ADD5A51B25496A001915C4 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76ADD5A41B25496A001915C4 /* HomeView.swift */; };
+		76ADD5A81B254985001915C4 /* MainRegister.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76ADD5A71B254985001915C4 /* MainRegister.swift */; };
+		76ADD5AB1B2549B3001915C4 /* Images in Resources */ = {isa = PBXBuildFile; fileRef = 76ADD5AA1B2549B3001915C4 /* Images */; };
+		76B481831B86A371009289F2 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 76B481821B86A371009289F2 /* home.png */; };
+		76B481851B86ACA3009289F2 /* topBar.png in Resources */ = {isa = PBXBuildFile; fileRef = 76B481841B86ACA3009289F2 /* topBar.png */; };
+		76D189F41BAF619000BD91FE /* AddNews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D189F31BAF619000BD91FE /* AddNews.swift */; };
+		76D53CC81B799AED002CFEF0 /* Intro + Rectangle 5 + Sintro.png in Resources */ = {isa = PBXBuildFile; fileRef = 76D53CC21B799AED002CFEF0 /* Intro + Rectangle 5 + Sintro.png */; };
+		76D53CC91B799AED002CFEF0 /* Sign In + Rectangle 5 + Ssignin.png in Resources */ = {isa = PBXBuildFile; fileRef = 76D53CC31B799AED002CFEF0 /* Sign In + Rectangle 5 + Ssignin.png */; };
+		76D53CCA1B799AED002CFEF0 /* Sign Up - Classes + First, begin by enteclasses.png in Resources */ = {isa = PBXBuildFile; fileRef = 76D53CC41B799AED002CFEF0 /* Sign Up - Classes + First, begin by enteclasses.png */; };
+		76D53CCB1B799AED002CFEF0 /* Sign Up - Infosignup.png in Resources */ = {isa = PBXBuildFile; fileRef = 76D53CC51B799AED002CFEF0 /* Sign Up - Infosignup.png */; };
+		76D53CCC1B799AED002CFEF0 /* Sign Up - Notifications + Select the notificatnotify.png in Resources */ = {isa = PBXBuildFile; fileRef = 76D53CC61B799AED002CFEF0 /* Sign Up - Notifications + Select the notificatnotify.png */; };
+		76D53CCD1B799AED002CFEF0 /* Sign Up - Teachers + Now, enter the teachteach.png in Resources */ = {isa = PBXBuildFile; fileRef = 76D53CC71B799AED002CFEF0 /* Sign Up - Teachers + Now, enter the teachteach.png */; };
+		76D53CE51B79A1C1002CFEF0 /* home_filled-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 76D53CE01B79A1C1002CFEF0 /* home_filled-50@2x.png */; };
+		76D53CE61B79A1C1002CFEF0 /* meal-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 76D53CE11B79A1C1002CFEF0 /* meal-50@2x.png */; };
+		76D53CE71B79A1C1002CFEF0 /* news-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 76D53CE21B79A1C1002CFEF0 /* news-50@2x.png */; };
+		76D53CE81B79A1C1002CFEF0 /* note-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 76D53CE31B79A1C1002CFEF0 /* note-50@2x.png */; };
+		76D53CE91B79A1C1002CFEF0 /* settings_3-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 76D53CE41B79A1C1002CFEF0 /* settings_3-50@2x.png */; };
+		76D53CFF1B79A514002CFEF0 /* editnews.png in Resources */ = {isa = PBXBuildFile; fileRef = 76D53CFA1B79A514002CFEF0 /* editnews.png */; };
+		76D53D001B79A514002CFEF0 /* editschedule.png in Resources */ = {isa = PBXBuildFile; fileRef = 76D53CFB1B79A514002CFEF0 /* editschedule.png */; };
+		76D53D011B79A514002CFEF0 /* editsettings.png in Resources */ = {isa = PBXBuildFile; fileRef = 76D53CFC1B79A514002CFEF0 /* editsettings.png */; };
+		76D53D021B79A514002CFEF0 /* pluslunch.png in Resources */ = {isa = PBXBuildFile; fileRef = 76D53CFD1B79A514002CFEF0 /* pluslunch.png */; };
+		76D53D031B79A514002CFEF0 /* plusnews.png in Resources */ = {isa = PBXBuildFile; fileRef = 76D53CFE1B79A514002CFEF0 /* plusnews.png */; };
+		76D53D071B79ADA7002CFEF0 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D53D061B79ADA7002CFEF0 /* TableViewCell.swift */; };
+		76E583121B73BD8A00F9BA34 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E583111B73BD8A00F9BA34 /* MainTabBarController.swift */; };
+		76E583141B73BEF000F9BA34 /* ScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E583131B73BEF000F9BA34 /* ScheduleViewController.swift */; };
+		76E583161B73BF0500F9BA34 /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E583151B73BF0500F9BA34 /* NewsViewController.swift */; };
+		76E583181B73BFDC00F9BA34 /* LunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E583171B73BFDC00F9BA34 /* LunchViewController.swift */; };
+		76E5831A1B73BFEA00F9BA34 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E583191B73BFEA00F9BA34 /* SettingsViewController.swift */; };
+		76E81D801B572FAF002F01E7 /* Users.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 76E81D7E1B572FAF002F01E7 /* Users.xcdatamodeld */; };
+		76EF15771C3C18F30091E18F /* ChangeClassList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76EF15761C3C18F30091E18F /* ChangeClassList.swift */; };
+		76EF15791C3C19030091E18F /* ChangeTeacherList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76EF15781C3C19030091E18F /* ChangeTeacherList.swift */; };
+		76EF157D1C3D55460091E18F /* AddNewsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76EF157C1C3D55460091E18F /* AddNewsController.swift */; };
+		76EF15821C3D715B0091E18F /* `Navbar-Green in Resources */ = {isa = PBXBuildFile; fileRef = 76EF15801C3D715A0091E18F /* `Navbar-Green */; };
+		76EF15831C3D715B0091E18F /* Backgroundnews.png in Resources */ = {isa = PBXBuildFile; fileRef = 76EF15811C3D715B0091E18F /* Backgroundnews.png */; };
+		76EF15841C3D71870091E18F /* Nav2news.png in Resources */ = {isa = PBXBuildFile; fileRef = 760D02B51B8E222700F758C5 /* Nav2news.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		767A57B21B2D270A0036D688 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		760301E01B929F85001B0357 /* AddClasses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddClasses.swift; sourceTree = "<group>"; };
+		760301E21B929F8F001B0357 /* AddTeachers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTeachers.swift; sourceTree = "<group>"; };
+		760301E41B929FA2001B0357 /* CompileRegister.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompileRegister.swift; sourceTree = "<group>"; };
+		760301E61B92A351001B0357 /* Classes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Classes.swift; sourceTree = "<group>"; };
+		760301E81B92A35A001B0357 /* Teachers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Teachers.swift; sourceTree = "<group>"; };
+		760D02B31B8E21B800F758C5 /* backarrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = backarrow.png; path = "Benjamin Scheduler/Images/`Icons/backarrow.png"; sourceTree = "<group>"; };
+		760D02B41B8E222700F758C5 /* Nav2edit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Nav2edit.png; path = "Benjamin Scheduler/Images/`Navbar-Green/Nav2edit.png"; sourceTree = "<group>"; };
+		760D02B51B8E222700F758C5 /* Nav2news.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Nav2news.png; path = "Benjamin Scheduler/Images/`Navbar-Green/Nav2news.png"; sourceTree = "<group>"; };
+		760FA1C41BA98E05000A7BFB /* iPhone4s.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iPhone4s.storyboard; sourceTree = "<group>"; };
+		7613C05A1BB991340099D29F /* ChangeRegistration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangeRegistration.swift; sourceTree = "<group>"; };
+		7613C05C1BB998390099D29F /* ChangeTeachers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangeTeachers.swift; sourceTree = "<group>"; };
+		7613C05E1BB9A87F0099D29F /* ChangeClasses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangeClasses.swift; sourceTree = "<group>"; };
+		7632A4971BA1435400E431AB /* Users.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Users.swift; path = "Benjamin Scheduler/Users.swift"; sourceTree = "<group>"; };
+		763A23F11B92B280005AB814 /* App Icon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "App Icon.jpg"; path = "Benjamin Scheduler/Images/App Icon/App Icon.jpg"; sourceTree = "<group>"; };
+		7641329B1B614199007CD668 /* Intro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Intro.swift; sourceTree = "<group>"; };
+		76509C2F1B9357410000D9FE /* FriendItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendItem.swift; sourceTree = "<group>"; };
+		769F8BDF1BA9052800181E85 /* iPhone6Plus.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iPhone6Plus.storyboard; sourceTree = "<group>"; };
+		769F8BE11BA90E2F00181E85 /* iPhone5s.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iPhone5s.storyboard; sourceTree = "<group>"; };
+		76ADD54A1B253EE5001915C4 /* Benjamin Scheduler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Benjamin Scheduler.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		76ADD54E1B253EE5001915C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76ADD54F1B253EE5001915C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		76ADD5561B253EE5001915C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/iPhone6.storyboard; sourceTree = "<group>"; };
+		76ADD5581B253EE5001915C4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		76ADD55B1B253EE5001915C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		76ADD5661B253EE6001915C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76ADD5671B253EE6001915C4 /* Benjamin_SchedulerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benjamin_SchedulerTests.swift; sourceTree = "<group>"; };
+		76ADD5A11B25494F001915C4 /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		76ADD5A41B25496A001915C4 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		76ADD5A71B254985001915C4 /* MainRegister.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainRegister.swift; sourceTree = "<group>"; };
+		76ADD5AA1B2549B3001915C4 /* Images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Images; sourceTree = "<group>"; };
+		76B481821B86A371009289F2 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = home.png; path = "Benjamin Scheduler/Images/home.png"; sourceTree = "<group>"; };
+		76B481841B86ACA3009289F2 /* topBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = topBar.png; path = "Benjamin Scheduler/Images/topBar.png"; sourceTree = "<group>"; };
+		76D189F31BAF619000BD91FE /* AddNews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddNews.swift; sourceTree = "<group>"; };
+		76D53CC21B799AED002CFEF0 /* Intro + Rectangle 5 + Sintro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Intro + Rectangle 5 + Sintro.png"; path = "Benjamin Scheduler/Images/NAVIGATION/Intro + Rectangle 5 + Sintro.png"; sourceTree = "<group>"; };
+		76D53CC31B799AED002CFEF0 /* Sign In + Rectangle 5 + Ssignin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Sign In + Rectangle 5 + Ssignin.png"; path = "Benjamin Scheduler/Images/NAVIGATION/Sign In + Rectangle 5 + Ssignin.png"; sourceTree = "<group>"; };
+		76D53CC41B799AED002CFEF0 /* Sign Up - Classes + First, begin by enteclasses.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Sign Up - Classes + First, begin by enteclasses.png"; path = "Benjamin Scheduler/Images/NAVIGATION/Sign Up - Classes + First, begin by enteclasses.png"; sourceTree = "<group>"; };
+		76D53CC51B799AED002CFEF0 /* Sign Up - Infosignup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Sign Up - Infosignup.png"; path = "Benjamin Scheduler/Images/NAVIGATION/Sign Up - Infosignup.png"; sourceTree = "<group>"; };
+		76D53CC61B799AED002CFEF0 /* Sign Up - Notifications + Select the notificatnotify.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Sign Up - Notifications + Select the notificatnotify.png"; path = "Benjamin Scheduler/Images/NAVIGATION/Sign Up - Notifications + Select the notificatnotify.png"; sourceTree = "<group>"; };
+		76D53CC71B799AED002CFEF0 /* Sign Up - Teachers + Now, enter the teachteach.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Sign Up - Teachers + Now, enter the teachteach.png"; path = "Benjamin Scheduler/Images/NAVIGATION/Sign Up - Teachers + Now, enter the teachteach.png"; sourceTree = "<group>"; };
+		76D53CE01B79A1C1002CFEF0 /* home_filled-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "home_filled-50@2x.png"; path = "Benjamin Scheduler/Images/home_filled-50@2x.png"; sourceTree = "<group>"; };
+		76D53CE11B79A1C1002CFEF0 /* meal-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "meal-50@2x.png"; path = "Benjamin Scheduler/Images/meal-50@2x.png"; sourceTree = "<group>"; };
+		76D53CE21B79A1C1002CFEF0 /* news-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "news-50@2x.png"; path = "Benjamin Scheduler/Images/news-50@2x.png"; sourceTree = "<group>"; };
+		76D53CE31B79A1C1002CFEF0 /* note-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "note-50@2x.png"; path = "Benjamin Scheduler/Images/note-50@2x.png"; sourceTree = "<group>"; };
+		76D53CE41B79A1C1002CFEF0 /* settings_3-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "settings_3-50@2x.png"; path = "Benjamin Scheduler/Images/settings_3-50@2x.png"; sourceTree = "<group>"; };
+		76D53CFA1B79A514002CFEF0 /* editnews.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = editnews.png; path = "Benjamin Scheduler/Images/Screens/editnews.png"; sourceTree = "<group>"; };
+		76D53CFB1B79A514002CFEF0 /* editschedule.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = editschedule.png; path = "Benjamin Scheduler/Images/Screens/editschedule.png"; sourceTree = "<group>"; };
+		76D53CFC1B79A514002CFEF0 /* editsettings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = editsettings.png; path = "Benjamin Scheduler/Images/Screens/editsettings.png"; sourceTree = "<group>"; };
+		76D53CFD1B79A514002CFEF0 /* pluslunch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pluslunch.png; path = "Benjamin Scheduler/Images/Screens/pluslunch.png"; sourceTree = "<group>"; };
+		76D53CFE1B79A514002CFEF0 /* plusnews.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = plusnews.png; path = "Benjamin Scheduler/Images/Screens/plusnews.png"; sourceTree = "<group>"; };
+		76D53D061B79ADA7002CFEF0 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TableViewCell.swift; path = "Benjamin Scheduler/TableViewCell.swift"; sourceTree = "<group>"; };
+		76E583111B73BD8A00F9BA34 /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		76E583131B73BEF000F9BA34 /* ScheduleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleViewController.swift; sourceTree = "<group>"; };
+		76E583151B73BF0500F9BA34 /* NewsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
+		76E583171B73BFDC00F9BA34 /* LunchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LunchViewController.swift; sourceTree = "<group>"; };
+		76E583191B73BFEA00F9BA34 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		76E81D7F1B572FAF002F01E7 /* Users.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Users.xcdatamodel; sourceTree = "<group>"; };
+		76EF15761C3C18F30091E18F /* ChangeClassList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangeClassList.swift; sourceTree = "<group>"; };
+		76EF15781C3C19030091E18F /* ChangeTeacherList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangeTeacherList.swift; sourceTree = "<group>"; };
+		76EF157C1C3D55460091E18F /* AddNewsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddNewsController.swift; sourceTree = "<group>"; };
+		76EF15801C3D715A0091E18F /* `Navbar-Green */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "`Navbar-Green"; path = "Benjamin Scheduler/Images/`Navbar-Green"; sourceTree = "<group>"; };
+		76EF15811C3D715B0091E18F /* Backgroundnews.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Backgroundnews.png; path = "Benjamin Scheduler/Images/Backgroundnews.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		761EE00D1B30BD0E00ABBA1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		76ADD5411B253EE4001915C4 = {
+			isa = PBXGroup;
+			children = (
+				76EF15801C3D715A0091E18F /* `Navbar-Green */,
+				76EF15811C3D715B0091E18F /* Backgroundnews.png */,
+				7632A4971BA1435400E431AB /* Users.swift */,
+				763A23F11B92B280005AB814 /* App Icon.jpg */,
+				760D02B41B8E222700F758C5 /* Nav2edit.png */,
+				760D02B51B8E222700F758C5 /* Nav2news.png */,
+				760D02B31B8E21B800F758C5 /* backarrow.png */,
+				76B481841B86ACA3009289F2 /* topBar.png */,
+				76B481821B86A371009289F2 /* home.png */,
+				76D53D061B79ADA7002CFEF0 /* TableViewCell.swift */,
+				76D53CFA1B79A514002CFEF0 /* editnews.png */,
+				76D53CFB1B79A514002CFEF0 /* editschedule.png */,
+				76D53CFC1B79A514002CFEF0 /* editsettings.png */,
+				76D53CFD1B79A514002CFEF0 /* pluslunch.png */,
+				76D53CFE1B79A514002CFEF0 /* plusnews.png */,
+				76D53CEA1B79A1C6002CFEF0 /* Tab Bar Icons */,
+				76D53CCE1B799AF3002CFEF0 /* Screen Images */,
+				76ADD54C1B253EE5001915C4 /* Benjamin Scheduler */,
+				76ADD5641B253EE6001915C4 /* Benjamin SchedulerTests */,
+				76ADD54B1B253EE5001915C4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		76ADD54B1B253EE5001915C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				76ADD54A1B253EE5001915C4 /* Benjamin Scheduler.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		76ADD54C1B253EE5001915C4 /* Benjamin Scheduler */ = {
+			isa = PBXGroup;
+			children = (
+				76ADD54F1B253EE5001915C4 /* AppDelegate.swift */,
+				76ADD5551B253EE5001915C4 /* iPhone6.storyboard */,
+				769F8BDF1BA9052800181E85 /* iPhone6Plus.storyboard */,
+				769F8BE11BA90E2F00181E85 /* iPhone5s.storyboard */,
+				760FA1C41BA98E05000A7BFB /* iPhone4s.storyboard */,
+				76ADD55A1B253EE5001915C4 /* LaunchScreen.xib */,
+				76ADD5A31B254952001915C4 /* Login */,
+				76ADD5A91B25498A001915C4 /* Register */,
+				76ADD5A61B254972001915C4 /* Tabs */,
+				76D189F51BAF619A00BD91FE /* Sub-Tabs */,
+				76ADD5911B2544F5001915C4 /* Frameworks */,
+				76ADD54D1B253EE5001915C4 /* Supporting Files */,
+			);
+			path = "Benjamin Scheduler";
+			sourceTree = "<group>";
+		};
+		76ADD54D1B253EE5001915C4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				76ADD5AA1B2549B3001915C4 /* Images */,
+				76ADD54E1B253EE5001915C4 /* Info.plist */,
+				76ADD5581B253EE5001915C4 /* Images.xcassets */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		76ADD5641B253EE6001915C4 /* Benjamin SchedulerTests */ = {
+			isa = PBXGroup;
+			children = (
+				76ADD5671B253EE6001915C4 /* Benjamin_SchedulerTests.swift */,
+				76ADD5651B253EE6001915C4 /* Supporting Files */,
+			);
+			path = "Benjamin SchedulerTests";
+			sourceTree = "<group>";
+		};
+		76ADD5651B253EE6001915C4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				76ADD5661B253EE6001915C4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		76ADD5911B2544F5001915C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		76ADD5A31B254952001915C4 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				7641329B1B614199007CD668 /* Intro.swift */,
+				76ADD5A11B25494F001915C4 /* LoginView.swift */,
+				76E81D7E1B572FAF002F01E7 /* Users.xcdatamodeld */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		76ADD5A61B254972001915C4 /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				76E583111B73BD8A00F9BA34 /* MainTabBarController.swift */,
+				76ADD5A41B25496A001915C4 /* HomeView.swift */,
+				76E583131B73BEF000F9BA34 /* ScheduleViewController.swift */,
+				76E583151B73BF0500F9BA34 /* NewsViewController.swift */,
+				76EF157C1C3D55460091E18F /* AddNewsController.swift */,
+				76E583171B73BFDC00F9BA34 /* LunchViewController.swift */,
+				76E583191B73BFEA00F9BA34 /* SettingsViewController.swift */,
+			);
+			name = Tabs;
+			sourceTree = "<group>";
+		};
+		76ADD5A91B25498A001915C4 /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				76ADD5A71B254985001915C4 /* MainRegister.swift */,
+				760301E01B929F85001B0357 /* AddClasses.swift */,
+				760301E21B929F8F001B0357 /* AddTeachers.swift */,
+				7613C05E1BB9A87F0099D29F /* ChangeClasses.swift */,
+				7613C05C1BB998390099D29F /* ChangeTeachers.swift */,
+				760301E41B929FA2001B0357 /* CompileRegister.swift */,
+				7613C05A1BB991340099D29F /* ChangeRegistration.swift */,
+				760301E61B92A351001B0357 /* Classes.swift */,
+				76EF15761C3C18F30091E18F /* ChangeClassList.swift */,
+				760301E81B92A35A001B0357 /* Teachers.swift */,
+				76EF15781C3C19030091E18F /* ChangeTeacherList.swift */,
+				76509C2F1B9357410000D9FE /* FriendItem.swift */,
+			);
+			name = Register;
+			sourceTree = "<group>";
+		};
+		76D189F51BAF619A00BD91FE /* Sub-Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				76D189F31BAF619000BD91FE /* AddNews.swift */,
+			);
+			name = "Sub-Tabs";
+			sourceTree = "<group>";
+		};
+		76D53CCE1B799AF3002CFEF0 /* Screen Images */ = {
+			isa = PBXGroup;
+			children = (
+				76D53CC21B799AED002CFEF0 /* Intro + Rectangle 5 + Sintro.png */,
+				76D53CC31B799AED002CFEF0 /* Sign In + Rectangle 5 + Ssignin.png */,
+				76D53CC41B799AED002CFEF0 /* Sign Up - Classes + First, begin by enteclasses.png */,
+				76D53CC51B799AED002CFEF0 /* Sign Up - Infosignup.png */,
+				76D53CC61B799AED002CFEF0 /* Sign Up - Notifications + Select the notificatnotify.png */,
+				76D53CC71B799AED002CFEF0 /* Sign Up - Teachers + Now, enter the teachteach.png */,
+			);
+			name = "Screen Images";
+			sourceTree = "<group>";
+		};
+		76D53CEA1B79A1C6002CFEF0 /* Tab Bar Icons */ = {
+			isa = PBXGroup;
+			children = (
+				76D53CE01B79A1C1002CFEF0 /* home_filled-50@2x.png */,
+				76D53CE11B79A1C1002CFEF0 /* meal-50@2x.png */,
+				76D53CE21B79A1C1002CFEF0 /* news-50@2x.png */,
+				76D53CE31B79A1C1002CFEF0 /* note-50@2x.png */,
+				76D53CE41B79A1C1002CFEF0 /* settings_3-50@2x.png */,
+			);
+			name = "Tab Bar Icons";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		76ADD5491B253EE4001915C4 /* Benjamin Scheduler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76ADD56B1B253EE6001915C4 /* Build configuration list for PBXNativeTarget "Benjamin Scheduler" */;
+			buildPhases = (
+				76ADD5461B253EE4001915C4 /* Sources */,
+				76ADD5481B253EE4001915C4 /* Resources */,
+				767A57B21B2D270A0036D688 /* Embed Watch Content */,
+				761EE00D1B30BD0E00ABBA1B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Benjamin Scheduler";
+			productName = "Benjamin Scheduler";
+			productReference = 76ADD54A1B253EE5001915C4 /* Benjamin Scheduler.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		76ADD5421B253EE4001915C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Blake Henderson";
+				TargetAttributes = {
+					76ADD5491B253EE4001915C4 = {
+						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = SRKFE25VAF;
+						SystemCapabilities = {
+							com.apple.DataProtection = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 76ADD5451B253EE4001915C4 /* Build configuration list for PBXProject "Benjamin Scheduler" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 76ADD5411B253EE4001915C4;
+			productRefGroup = 76ADD54B1B253EE5001915C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				76ADD5491B253EE4001915C4 /* Benjamin Scheduler */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		76ADD5481B253EE4001915C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76EF15841C3D71870091E18F /* Nav2news.png in Resources */,
+				76EF15821C3D715B0091E18F /* `Navbar-Green in Resources */,
+				76EF15831C3D715B0091E18F /* Backgroundnews.png in Resources */,
+				763A23F21B92B280005AB814 /* App Icon.jpg in Resources */,
+				76B481851B86ACA3009289F2 /* topBar.png in Resources */,
+				76D53CFF1B79A514002CFEF0 /* editnews.png in Resources */,
+				76D53D001B79A514002CFEF0 /* editschedule.png in Resources */,
+				760FA1C51BA98E05000A7BFB /* iPhone4s.storyboard in Resources */,
+				76B481831B86A371009289F2 /* home.png in Resources */,
+				76D53D011B79A514002CFEF0 /* editsettings.png in Resources */,
+				76D53D021B79A514002CFEF0 /* pluslunch.png in Resources */,
+				76D53D031B79A514002CFEF0 /* plusnews.png in Resources */,
+				76D53CE51B79A1C1002CFEF0 /* home_filled-50@2x.png in Resources */,
+				769F8BE21BA90E2F00181E85 /* iPhone5s.storyboard in Resources */,
+				76D53CE61B79A1C1002CFEF0 /* meal-50@2x.png in Resources */,
+				76D53CE71B79A1C1002CFEF0 /* news-50@2x.png in Resources */,
+				76D53CE81B79A1C1002CFEF0 /* note-50@2x.png in Resources */,
+				76D53CE91B79A1C1002CFEF0 /* settings_3-50@2x.png in Resources */,
+				769F8BE01BA9052800181E85 /* iPhone6Plus.storyboard in Resources */,
+				76D53CC81B799AED002CFEF0 /* Intro + Rectangle 5 + Sintro.png in Resources */,
+				76D53CC91B799AED002CFEF0 /* Sign In + Rectangle 5 + Ssignin.png in Resources */,
+				76D53CCA1B799AED002CFEF0 /* Sign Up - Classes + First, begin by enteclasses.png in Resources */,
+				76D53CCB1B799AED002CFEF0 /* Sign Up - Infosignup.png in Resources */,
+				76D53CCC1B799AED002CFEF0 /* Sign Up - Notifications + Select the notificatnotify.png in Resources */,
+				76D53CCD1B799AED002CFEF0 /* Sign Up - Teachers + Now, enter the teachteach.png in Resources */,
+				76ADD5AB1B2549B3001915C4 /* Images in Resources */,
+				76ADD5571B253EE5001915C4 /* iPhone6.storyboard in Resources */,
+				76ADD55C1B253EE5001915C4 /* LaunchScreen.xib in Resources */,
+				76ADD5591B253EE5001915C4 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		76ADD5461B253EE4001915C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76EF15771C3C18F30091E18F /* ChangeClassList.swift in Sources */,
+				760301E91B92A35A001B0357 /* Teachers.swift in Sources */,
+				76EF157D1C3D55460091E18F /* AddNewsController.swift in Sources */,
+				76ADD5A51B25496A001915C4 /* HomeView.swift in Sources */,
+				7613C05F1BB9A87F0099D29F /* ChangeClasses.swift in Sources */,
+				76D189F41BAF619000BD91FE /* AddNews.swift in Sources */,
+				76E583181B73BFDC00F9BA34 /* LunchViewController.swift in Sources */,
+				76E5831A1B73BFEA00F9BA34 /* SettingsViewController.swift in Sources */,
+				76E81D801B572FAF002F01E7 /* Users.xcdatamodeld in Sources */,
+				7632A4981BA1435400E431AB /* Users.swift in Sources */,
+				7641329C1B614199007CD668 /* Intro.swift in Sources */,
+				76E583141B73BEF000F9BA34 /* ScheduleViewController.swift in Sources */,
+				760301E71B92A351001B0357 /* Classes.swift in Sources */,
+				76ADD5A81B254985001915C4 /* MainRegister.swift in Sources */,
+				760301E11B929F85001B0357 /* AddClasses.swift in Sources */,
+				760301E51B929FA2001B0357 /* CompileRegister.swift in Sources */,
+				76E583121B73BD8A00F9BA34 /* MainTabBarController.swift in Sources */,
+				76EF15791C3C19030091E18F /* ChangeTeacherList.swift in Sources */,
+				76E583161B73BF0500F9BA34 /* NewsViewController.swift in Sources */,
+				7613C05B1BB991340099D29F /* ChangeRegistration.swift in Sources */,
+				76D53D071B79ADA7002CFEF0 /* TableViewCell.swift in Sources */,
+				76509C301B9357410000D9FE /* FriendItem.swift in Sources */,
+				76ADD5A21B25494F001915C4 /* LoginView.swift in Sources */,
+				760301E31B929F8F001B0357 /* AddTeachers.swift in Sources */,
+				7613C05D1BB998390099D29F /* ChangeTeachers.swift in Sources */,
+				76ADD5501B253EE5001915C4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		76ADD5551B253EE5001915C4 /* iPhone6.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76ADD5561B253EE5001915C4 /* Base */,
+			);
+			name = iPhone6.storyboard;
+			sourceTree = "<group>";
+		};
+		76ADD55A1B253EE5001915C4 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76ADD55B1B253EE5001915C4 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		76ADD5691B253EE6001915C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Blake  Henderson (SRKFE25VAF)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Blake  Henderson (SRKFE25VAF)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "1c43b8d5-314a-44a0-9a8e-60b1bbdb4641";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		76ADD56A1B253EE6001915C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Blake  Henderson (SRKFE25VAF)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Blake  Henderson (SRKFE25VAF)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "1c43b8d5-314a-44a0-9a8e-60b1bbdb4641";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		76ADD56C1B253EE6001915C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = "~/";
+				INFOPLIST_FILE = "Benjamin Scheduler/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.benjaminscheduler.benjaminscheduler;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		76ADD56D1B253EE6001915C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = "~/";
+				INFOPLIST_FILE = "Benjamin Scheduler/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.benjaminscheduler.benjaminscheduler;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		76ADD5451B253EE4001915C4 /* Build configuration list for PBXProject "Benjamin Scheduler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76ADD5691B253EE6001915C4 /* Debug */,
+				76ADD56A1B253EE6001915C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76ADD56B1B253EE6001915C4 /* Build configuration list for PBXNativeTarget "Benjamin Scheduler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76ADD56C1B253EE6001915C4 /* Debug */,
+				76ADD56D1B253EE6001915C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		76E81D7E1B572FAF002F01E7 /* Users.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				76E81D7F1B572FAF002F01E7 /* Users.xcdatamodel */,
+			);
+			currentVersion = 76E81D7F1B572FAF002F01E7 /* Users.xcdatamodel */;
+			path = Users.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 76ADD5421B253EE4001915C4 /* Project object */;
+}
