@@ -4,18 +4,14 @@ Benjamin-Scheduler
 The Benjamin School Text Message Scheduler
 
 This project was designed to extract a text from the PDF of The Benjamin School Schedule. It then extracts the users
-information from a MYSQL Database (Name, Phone Number, Carrier). In a Final Compile, It would compile and send the
-schedule to each user that signed up (Via. Website). The Schedule will arrive at a set time (6:45). 
-
-In the Future, we are planning to allow users of the service to add their own times when they would like it sent and,
-their personal schedule. We are also planning to allow teachers to input the homework for the students and send it via. 
-Text message. All of these projects are future versions.
+information from a MYSQL Database (Name, Phone Number, Carrier). It would send the
+schedule to each user that signed up (Via. Website). The Schedule will arrive at a set time (6:45, 7:00, 7:15, 7:30). 
 
 Version 1.0
 =================
   - Extracts Text from a PDF File (Benjamin Scheduler)
-  - Sends a Email Via. Gmail Account
   - Reterieves MYSQL Data from Database (User Info - Phone, Name, Carrier)
+  - Sends a Email Via. Gmail Account
   
   **Know Bugs**
   - PDF extractor crashes when given a unknown day (Not Realtive to Algorithm) 
@@ -42,3 +38,8 @@ Version 2.0
 
   - Restructured the entire program to work for the new formation of the data.
   - Restructured the text message system and database config
+  
+ Version 3.0
+=================
+
+The Original Text Message Version is now a fully developed mobile application (iOS). This application integrates the school news, lunch schedule, and announcements. This allows the users to access their schedule and future schedules for the entire week. The Application uses Swift and Objective-C. 
