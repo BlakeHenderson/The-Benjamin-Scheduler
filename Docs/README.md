@@ -40,3 +40,5 @@ Version 2.0
 =================
 
 The Original Text Message Version is now a fully developed mobile application (iOS). This application integrates the school news, lunch schedule, and announcements. This allows the users to access their schedule and future schedules for the entire week. The Application uses Swift and Objective-C. 
+
+Written in Swift 2
