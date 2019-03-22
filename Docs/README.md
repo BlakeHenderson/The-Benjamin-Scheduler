@@ -1,14 +1,11 @@
-Benjamin-Scheduler
+The Benjamin Scheduler
 ==================
-
-The Benjamin School Text Message Scheduler
-
-This project was designed to extract a text from the PDF of The Benjamin School Schedule. It then extracts the users
+Version 1.0
+=================
+This version was designed to extract a text from the PDF of The Benjamin School Schedule. It then extracts the users
 information from a MYSQL Database (Name, Phone Number, Carrier). It would send the
 schedule to each user that signed up (Via. Website). The Schedule will arrive at a set time (6:45, 7:00, 7:15, 7:30). 
 
-Version 1.0
-=================
   - Extracts Text from a PDF File (Benjamin Scheduler)
   - Reterieves MYSQL Data from Database (User Info - Phone, Name, Carrier)
   - Sends a Email Via. Gmail Account
